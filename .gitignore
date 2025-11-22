@@ -17,3 +17,4 @@ experiments/
 # VSCode or other editors
 .vscode/
 
+.gitignore
