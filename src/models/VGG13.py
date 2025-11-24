@@ -21,9 +21,9 @@ class DoubleConv(nn.Module):
         super().__init__()
         self.conv_op=nn.Sequential(
             nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1), 
-            nn.ReLU(inplace=True),
+            nn.ReLU(),
             nn.Conv2d(out_channels, out_channels, kernel_size=3, padding=1), 
-            nn.ReLU(inplace=True),
+            nn.ReLU(),
         )
         if use_pooling:
             self.pool = nn.MaxPool2d(kernel_size=2,stride=2)
@@ -50,9 +50,9 @@ class VGG13(nn.Module):
         # Fully connected layers
         self.fc=nn.Sequential(
             nn.Linear(7*7*512,4096),
-            nn.ReLU(inplace=True),
+            nn.ReLU(),
             nn.Linear(4096,4096),
-            nn.ReLU(inplace=True),
+            nn.ReLU(),
             nn.Linear(4096,num_channels)
         ) 
 
@@ -75,10 +75,4 @@ class VGG13(nn.Module):
         output = self.fc(flatten_x)
         
         return output
-        
-    def train(self):
-        ...
-        
-    def evaluate(self):
-        ...
     
