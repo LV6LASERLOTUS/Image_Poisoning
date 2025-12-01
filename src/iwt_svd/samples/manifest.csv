@@ -1,0 +1,16 @@
+split,sample_file,sample_path
+faces,male_001.jpg,samples\faces\male_001.jpg
+faces,male_002.jpg,samples\faces\male_002.jpg
+faces,male_003.jpg,samples\faces\male_003.jpg
+faces,male_004.jpg,samples\faces\male_004.jpg
+faces,male_005.jpg,samples\faces\male_005.jpg
+faces,female_001.jpg,samples\faces\female_001.jpg
+faces,female_002.jpg,samples\faces\female_002.jpg
+faces,female_003.jpg,samples\faces\female_003.jpg
+faces,female_004.jpg,samples\faces\female_004.jpg
+faces,female_005.jpg,samples\faces\female_005.jpg
+objects,object_001.jpg,samples\objects\object_001.jpg
+objects,object_002.jpg,samples\objects\object_002.jpg
+objects,object_003.jpg,samples\objects\object_003.jpg
+objects,object_004.jpg,samples\objects\object_004.jpg
+objects,object_005.jpg,samples\objects\object_005.jpg
