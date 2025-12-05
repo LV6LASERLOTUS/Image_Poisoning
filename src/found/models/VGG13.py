@@ -22,7 +22,9 @@ class DoubleConv(nn.Module):
         self.conv_op=nn.Sequential(
             nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1), 
             nn.ReLU(),
+            # nn.BatchNorm2d(out_channels),
             nn.Conv2d(out_channels, out_channels, kernel_size=3, padding=1), 
+            nn.BatchNorm2d(out_channels),
             nn.ReLU(),
         )
         if use_pooling:
