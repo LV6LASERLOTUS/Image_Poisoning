@@ -3,3 +3,4 @@ src/iwt_svd/Human faces and object dataset/
 src/iwt_svd/repos/
 src/found/DataLoader_test.ipynb
 data/
+src/checkpoints/
