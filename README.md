@@ -1,3 +1,6 @@
+![Python Version](https://img.shields.io/badge/Python-%3E%3D3.10-blue) ![PyTorch Version](https://img.shields.io/badge/PyTorch-2.1-orange)
+
+
 # Comparison of IVT,SVD watermarking vs CMUA/FOUND on jpg and png
 
 #  Description:
