@@ -45,4 +45,7 @@ def found(model, img: torch.Tensor, limit: float = 0.07) -> torch.Tensor:
         
         if loss >= limit:
             return watermarked_img.cpu()
+
+    # If adding noise exceeds limitw
+    return img
     
