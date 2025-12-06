@@ -11,8 +11,8 @@ Nowadays with the growth of AI, our personal data is becoming more and more pron
 
 -[ Getting Started](#-Getting-Started)
 - [Implementation Explanation](#-Implementation-Explanation)
-  - [Model Choice](#-Model-Choice)
-  - [Found Watermarking](#-Found-Watermarking)
+  - [Model Choice](#Model-Choice)
+  - [Found Watermarking](#Found-Watermarking)
 
 # 🚀 Getting Started
 
